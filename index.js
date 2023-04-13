@@ -15,7 +15,7 @@ app.use(express.static('public'));
 //middleware
 var corsOptions = {
   credentials: true,
-  origin: "http://localhost:3000",
+  origin: "http://localhost",
   // origin: "https://market-place-backend-vert.vercel.app/",
 };
 //connect mongodb
